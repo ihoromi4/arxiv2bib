@@ -11,6 +11,18 @@ This utility should:
 
 The expected outcome is a working CLI tool (`arxiv2bib <id>`), an open-source Python package with a `pyproject.toml` file, along with tests and documentation.
 
+# Rules
+
+- Follow these rules strictly.
+- Do not move to the next task until user ask to do that.
+
+# Project State
+
+- The `uv` package panager is used.
+- The virtual environment `.venv` already exists.
+- The `main.py` is entry point of the project.
+- The logic code is placed in `arxiv2bib` directory.
+
 # Tasks
 
 - [x] 1. Project Setup
@@ -19,7 +31,7 @@ The expected outcome is a working CLI tool (`arxiv2bib <id>`), an open-source Py
     - [x] 2.1. Create the command-line interface using `click` python library.
     - [x] 2.2. Implement user-facing logging to show search steps with placeholder phrases.
 - [ ] 3. Core Logic
-    - [ ] 3.1. Implement core functionality for fetching data from arXiv.
+    - [x] 3.1. Implement core functionality for fetching data from arXiv.
     - [ ] 3.2. Implement core functionality for fetching data from CrossRef.
     - [ ] 3.3. Add BibTeX generation logic.
 - [ ] 4. Testing & Refinement
