@@ -11,3 +11,6 @@ dependencies = [
     "rich",
     "click",
 ]
+
+[project.scripts]
+arxiv2bib = "arxiv2bib.cli:main"
