@@ -13,17 +13,18 @@ The expected outcome is a working CLI tool (`arxiv2bib <id>`), an open-source Py
 
 # Tasks
 
-- [ ] **Phase 1: Project Setup & Core Logic**
+- [ ] **Phase 1: Project Setup**
     - [x] 1.1. Initialize project structure and dependencies.
-    - [ ] 1.2. Implement core functionality for fetching data from arXiv.
-    - [ ] 1.3. Implement core functionality for fetching data from CrossRef.
-    - [ ] 1.4. Add BibTeX generation logic.
 - [ ] **Phase 2: CLI & User Interface**
     - [ ] 2.1. Create the command-line interface using `click` python library.
-    - [ ] 2.2. Implement user-facing logging to show search steps.
-- [ ] **Phase 3: Testing & Refinement**
-    - [ ] 3.1. Write unit and integration tests.
-    - [ ] 3.2. Add optimizations like caching and error handling.
-- [ ] **Phase 4: Documentation & Publication**
-    - [ ] 4.1. Create a comprehensive `README.md` file.
-    - [ ] 4.2. Prepare the package for publication.
+    - [ ] 2.2. Implement user-facing logging to show search steps with placeholder phrases.
+- [ ] **Phase 3: Core Logic**
+    - [ ] 3.1. Implement core functionality for fetching data from arXiv.
+    - [ ] 3.2. Implement core functionality for fetching data from CrossRef.
+    - [ ] 3.3. Add BibTeX generation logic.
+- [ ] **Phase 4: Testing & Refinement**
+    - [ ] 4.1. Write unit and integration tests.
+    - [ ] 4.2. Add optimizations like caching and error handling.
+- [ ] **Phase 5: Documentation & Publication**
+    - [ ] 5.1. Create a comprehensive `README.md` file.
+    - [ ] 5.2. Prepare the package for publication.
