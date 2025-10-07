@@ -9,6 +9,7 @@ dependencies = [
     "requests",
     "bibtexparser",
     "rich",
+    "crossrefapi",
     "click",
 ]
 
@@ -18,3 +19,6 @@ arxiv2bib = "arxiv2bib.cli:main"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["notebooks"]
