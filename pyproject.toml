@@ -1,10 +1,10 @@
 [project]
 name = "arxiv2bib"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
+description = "A CLI utility to fetch BibTeX citations from arXiv IDs."
+authors = [{ name = "Ihor Omelchenko", email = "ihor.v.omelchenko@gmail.com" }]
 dependencies = [
+    "click",
     "arxiv",
     "requests",
     "bibtexparser",
@@ -14,3 +14,7 @@ dependencies = [
 
 [project.scripts]
 arxiv2bib = "arxiv2bib.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
